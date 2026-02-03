@@ -4,73 +4,153 @@
     <meta charset="UTF-8">
     <title>Ingeniería en Sistemas</title>
 </head>
+
 <body>
 
-<div>
-    <h1>Ingeniería en Sistemas Computacionales</h1>
-    <p>Página informativa sobre la carrera de Ingeniería en Sistemas Computacionales.</p>
-</div>
+<div class="contenedor">
+    <div class="encabezado">
+        <h1>Ingeniería en Sistemas Computacionales</h1>
+        <p>Página informativa para promover la carrera de Ingeniería en Sistemas.</p>
+    </div>
 
-<div>
-    <h2>Objetivos de la Página Web</h2>
-    <p>
-        El objetivo de esta página web es proporcionar información clara y sencilla sobre la carrera
-        de Ingeniería en Sistemas Computacionales, con el fin de dar a conocer en qué consiste la
-        carrera, las habilidades que se desarrollan y las áreas de trabajo de un ingeniero en sistemas.
-    </p>
-</div>
-
-<div>
-    <h2>Contenidos</h2>
-
-    <div>
-        <h3>¿Qué es Ingeniería en Sistemas?</h3>
+    <div class="seccion">
+        <h2>Objetivos de la Página Web</h2>
         <p>
-            La Ingeniería en Sistemas Computacionales es una carrera orientada al análisis, diseño,
-            desarrollo e implementación de soluciones tecnológicas mediante el uso de sistemas
-            informáticos y software.
+            El objetivo de esta página web es proporcionar información clara y accesible
+            sobre la carrera de Ingeniería en Sistemas Computacionales, con la finalidad
+            de promover la carrera y orientar a los estudiantes interesados en el área
+            tecnológica.
         </p>
     </div>
 
-    <div>
-        <h3>Áreas de la carrera</h3>
-        <ul>
-            <li>Desarrollo de software</li>
-            <li>Bases de datos</li>
-            <li>Redes y telecomunicaciones</li>
-            <li>Seguridad informática</li>
-            <li>Soporte y mantenimiento de sistemas</li>
-        </ul>
-    </div>
+    <div class="seccion">
+        <h2>Contenidos de la Página Web</h2>
 
-    <div>
-        <h3>Imagen representativa</h3>
-        <img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png" width="200">
-    </div>
+        <div class="bloque">
+            <h3>Información</h3>
+            <p>
+                Descripción general de la carrera, áreas de estudio y campo laboral
+                de un ingeniero en sistemas.
+            </p>
+        </div>
 
-    <div>
-        <h3>Video informativo</h3>
-        <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/5xq7BzK0uUE"
-        allowfullscreen></iframe>
-    </div>
+        <div class="bloque">
+            <h3>Imágenes</h3>
+            <img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png" width="180">
+        </div>
 
-    <div>
-        <h3>Formulario de contacto</h3>
-        <form>
-            <label>Nombre</label><br>
-            <input type="text"><br><br>
+        <div class="bloque">
+            <h3>Video</h3>
+            <iframe width="500" height="280"
+            src="https://www.youtube.com/embed/5xq7BzK0uUE"
+            allowfullscreen></iframe>
+        </div>
 
-            <label>Correo electrónico</label><br>
-            <input type="email"><br><br>
+        <div class="bloque">
+            <h3>Formulario</h3>
+            <form>
+                <label>Nombre</label>
+                <input type="text">
 
-            <label>Mensaje</label><br>
-            <textarea rows="4"></textarea><br><br>
+                <label>Correo electrónico</label>
+                <input type="email">
 
-            <input type="submit" value="Enviar">
-        </form>
+                <label>Mensaje</label>
+                <textarea rows="4"></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </div>
 </div>
 
 </body>
+
+<style>
+body {
+    background-color: #f7f3ee;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.encabezado {
+    background-color: #fffaf3;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e6dccf;
+    text-align: center;
+}
+
+.seccion {
+    background-color: #fffaf3;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e6dccf;
+}
+
+.bloque {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #6b4f3f;
+}
+
+h2 {
+    color: #8b6a55;
+    border-bottom: 2px solid #e6dccf;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #7a5a45;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img, iframe {
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+form {
+    background-color: #f7f3ee;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e6dccf;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #d8cfc2;
+}
+
+input[type="submit"] {
+    background-color: #cbb6a3;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #b59f8a;
+}
+</style>
+
 </html>
